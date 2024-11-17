@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 25px;
+
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+body.dark-mode {
+    background-color: #272829;
+    color: white;
+}
+
+nav.dark-mode {
+    background-color: #272829;
+    color: white;
+}
+
+.card.dark-mode {
+    background-color: #272829;
+    color: white;
+}

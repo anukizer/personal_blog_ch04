@@ -1,0 +1,56 @@
+main{
+    border-top: 2px solid black;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    .left-side{
+        border-right: 2px solid black;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            border-radius: 25px;
+        }
+    }
+    .right-side{
+        border-left: 2px solid black;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+            .input-group{
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 15px;
+                width: 550px;
+                label{
+                    padding-bottom: 10px;
+                }
+                input, textarea{
+                    border-radius: 5px;
+                }
+                textarea{
+                    height: 75px;
+                }
+            }
+            button{
+                width: 550px;
+                padding: 8px;
+                background-color: black;
+                color: white;
+            }
+            
+        }
+        
+        
+    }
